@@ -15,8 +15,8 @@ Note: If you use the Apple Silicon build for VS Code, you'll get a much faster e
 
 ## How to use
 
-1. Clone this repo `git clone https://github.com/jroes/streamlit-m1-vscode`
-2. Open in VSCode `code .`
+1. Clone this repo (`git clone https://github.com/jroes/streamlit-m1-vscode`)
+2. Open in VSCode (`code .`)
 3. Click "Re-launch in container"
 
 Clicking "re-launch in container" will build the underlying Docker container. From there you should be able to do things like:
@@ -31,7 +31,7 @@ This repository contains:
 
 * A Dockerfile that sets up a working Python 3.8 + conda + Linux environment for ARM-based CPUs (e.g. the new Apple M1 chip)
 * A devcontainer.json that will automatically configure VSCode to build & use this container.
-* A simple streamlit_app.py 
+* A fairly-empty streamlit_app.py you can `streamlit run` as a starting point.
 
 ## Acknowledgements
 
