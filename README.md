@@ -15,11 +15,11 @@ Note: If you use the Apple Silicon build for VS Code, you'll get a much faster e
 
 ## How to use
 
-1. Clone this repo (`git clone https://github.com/jroes/streamlit-m1-vscode`)
+1. Clone this repo (`git clone https://github.com/jroes/streamlit-getting-started-m1`)
 2. Open in VSCode (`code .`)
-3. Click "Re-launch in container"
+3. Press Cmd+Shift+P and search for "Dev Containers: Reopen in Container"
 
-Clicking "re-launch in container" will build the underlying Docker container. From there you should be able to do things like:
+This will build the underlying Docker container. From there you should be able to do things like:
 
 * Open a new Terminal window in VSCode and run `streamlit hello`
 * Run any other streamlit commands, such as `streamlit run streamlit_app.py`
